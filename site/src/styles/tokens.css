@@ -1,0 +1,73 @@
+/* ==========================================================================
+   LSTN DESIGN TOKENS
+   Brand palette from "LSTN Designs 2026" visual identity.
+   ========================================================================== */
+:root {
+  /* Brand — aubergine */
+  --aubergine-950: #160b20;
+  --aubergine-900: #1f1030;
+  --aubergine-800: #2a1639; /* card on dark */
+  --aubergine-700: #321b45; /* BRAND PRIMARY */
+  --aubergine-600: #4d2a69; /* BRAND */
+  --aubergine-400: #8a6aa8;
+  --aubergine-200: #d3bee4; /* BRAND lavender */
+
+  /* Brand — lime */
+  --lime-500: #96f200; /* BRAND electric lime */
+  --lime-300: #c7ff6d; /* BRAND */
+  --lime-100: #efffd5; /* BRAND */
+
+  /* Brand — magenta (use sparingly) */
+  --magenta-500: #fd2fee;
+  --magenta-300: #fd67f2;
+  --pink-50: #ffe5fd; /* BRAND pale pink panel */
+
+  --white: #ffffff;
+  --paper: #fcf8fd;
+
+  /* Semantic */
+  --bg: var(--paper);
+  --ink: var(--aubergine-700);
+  --ink-soft: #5d4a6e;
+  --ink-on-dark: #ffffff;
+  --ink-on-dark-soft: rgba(255, 255, 255, 0.72);
+  --line: rgba(50, 27, 69, 0.12);
+  --line-on-dark: rgba(255, 255, 255, 0.12);
+  --accent: var(--lime-500);
+
+  /* Typography
+     Brand fonts are Nourd (primary) and "Computer Says No" (secondary). Both
+     are commercial; licensed web fonts can be dropped into src/styles/fonts.css
+     and swapped in here. Until then these open-source fonts are self-hosted. */
+  --font-display: 'Outfit Variable', 'Nourd', system-ui, sans-serif;
+  --font-body: 'DM Sans Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Computer Says No', ui-monospace, monospace;
+
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.9375rem;
+  --fs-base: 1.0625rem;
+  --fs-lg: clamp(1.125rem, 1.05rem + 0.3vw, 1.3125rem);
+  --fs-xl: clamp(1.375rem, 1.2rem + 0.7vw, 1.75rem);
+  --fs-2xl: clamp(1.75rem, 1.4rem + 1.5vw, 2.625rem);
+  --fs-3xl: clamp(2.25rem, 1.6rem + 2.8vw, 4rem);
+  --fs-4xl: clamp(2.6rem, 1.7rem + 4vw, 5.25rem);
+
+  --tracking-tight: -0.025em; /* brand letter spacing −25 */
+
+  /* Layout */
+  --container: 1240px;
+  --container-narrow: 820px;
+  --gutter: clamp(1.25rem, 4vw, 2.5rem);
+  --section-y: clamp(4.5rem, 9vw, 8.5rem);
+  --radius-sm: 10px;
+  --radius: 18px;
+  --radius-lg: 28px;
+  --header-h: 76px;
+
+  --shadow-sm: 0 1px 2px rgba(31, 16, 48, 0.06), 0 2px 8px rgba(31, 16, 48, 0.05);
+  --shadow: 0 10px 30px -10px rgba(31, 16, 48, 0.25);
+  --shadow-lg: 0 30px 60px -20px rgba(22, 11, 32, 0.45);
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur: 0.5s;
+}

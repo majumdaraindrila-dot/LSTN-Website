@@ -1,0 +1,9 @@
+/* Self-hosted fonts (no requests to Google — GDPR-friendly) */
+@import '@fontsource-variable/outfit';
+@import '@fontsource-variable/dm-sans';
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/500.css';
+
+@import './tokens.css';
+@import './base.css';
+@import './components.css';
